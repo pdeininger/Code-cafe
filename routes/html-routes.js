@@ -22,9 +22,9 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/calendar.html"));
   });
 
-  // chat route loads chat.html
-  app.get("/blog", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/chat.html"));
+  // sign up route loads signup.html
+  app.get("/signup", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/signup.html"));
   });
 
 };
