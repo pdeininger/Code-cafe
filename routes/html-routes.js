@@ -18,7 +18,7 @@ module.exports = function(app) {
   });
 
   // calendar route loads calendar 
-  app.get("/code-cafe-calendar", function(req, res) {
+  app.get("/calendar", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/calendar.html"));
   });
 
