@@ -1,4 +1,6 @@
-module.exports = function(sequelize, DataTypes) {
+
+
+module.exports = function (sequelize, DataTypes) {
   var Meet = sequelize.define("Meet", {
     date: {
       type: DataTypes.STRING,
